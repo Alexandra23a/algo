@@ -2,35 +2,53 @@ body {
     font-family: sans-serif;
 }
 
+header {
+    background-color: lightblue;
+    padding: 10px;
+    color: darkblue;
+    border-radius: 18px;
+}
+
+header a {
+    background-color: white;
+    padding: 5px;
+    border-radius: 9px;
+}
+
 h1 {
+    color: darkblue;
+    background-color: lightblue;
+    border-radius: 15px;
     text-align: center;
-    font-size: 60px;
+    padding: 14px;
 }
 
-h2{
-    font-size: 40px;
-    background-color: peru;
+footer p {
+    border:3px solid rgb(214, 211, 211) ;
+    padding: 8px;
 }
 
-a {
-    color: black;
+nav a {
     font-size: 20px;
+    text-decoration: none;
+    color: white; 
+    border: 3px solid navy; 
+    border-radius: 8px;
+    background-color: navy;
 }
 
-p, img {
-    border: 3px solid peru;
+.Meow7 {
+    border: 3px solid navy;
+    padding: 10px;
+    border-radius: 15px;
 }
 
-p, table {
-    font-size: 20px;
+h2 {
+   color: navy;
+   font-family:'Times New Roman', Times, serif; 
 }
 
-table{
-    background-color: lightyellow;
-    text-align: center;
-    border-collapse: collapse;
+.Meow8 {
+    width: 690px;
 }
 
-td{
-    border: 1px solid brown;
-}
